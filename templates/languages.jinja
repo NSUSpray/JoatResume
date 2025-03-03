@@ -1,0 +1,8 @@
+<section id="languages">
+	<h3>{{ titles.languages }}</h3>
+	<ul>
+{% for lang in languages %}
+		<li>{{ lang.name }} — {{ lang.proficiency }}</li>
+{% endfor %}
+	</ul>
+</section>

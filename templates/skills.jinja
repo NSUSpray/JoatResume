@@ -1,0 +1,20 @@
+<section id="skills">
+	<h3>{{ titles.skills }}</h3>
+	<dl>
+{% set group_key = PATH_TO_SKILL_GROUPING_KEY[-1] %}
+{% for group, skls in skills
+				|group_by(PATH_TO_SKILL_GROUPING_KEY, SKILL_GROUP_MIN_SIZE)
+				|items %}
+		<div>
+			<dt>{{ titles[group_key][group] }}</dt>
+			<dd>
+				<ul>
+	{% for skill, details in skls|items|sort_by_priority(selected_specs) %}
+					{{ li_(details.title or skill, title=details.attributes) }}
+	{% endfor %}
+				</ul>
+			</dd>
+		</div>
+{% endfor %}
+	</dl>
+</section>

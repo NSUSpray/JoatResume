@@ -1,0 +1,139 @@
+%YAML 1.1
+---
+education:
+  - from: 2002
+    to: 2010
+    institution:
+      ru: Московский государственный университет
+      en: Moscow State University
+    city: { ru: Москва, en: Moscow }
+    faculty: { ru: Геологический факультет, en: Geology }
+    degree:
+      ru: бакалавр
+      en: Bachelor of Science
+    skills: ['???']
+
+
+certifications:
+
+  2024:
+
+    - title:
+        ru: Многопроцессность в Python. Multiprocessing
+        en: Python. Multiprocessing programming
+      organization: Stepik
+      from: 2024-09-01
+      to: 2024-12-31
+      link:
+        ru: https://stepik.org/cert/6947242
+        en: https://stepik.org/cert/6947242?lang=en
+      skills: [multiprocessing, Python]
+      achievements:
+        ru: Научился создавать и управлять процессами, работать с пулом
+          процессов, научился межпроцессному взаимодействию.
+        en: ???
+
+    - title:
+        ru: Символьные вычисления в Python с помощью SymPy
+        en: Symbolic calculations in python with SymPy
+      organization: Stepik
+      from: 2024-10-01
+      to: 2024-10-31
+      link:
+        ru: https://stepik.org/cert/2735261
+        en: https://stepik.org/cert/2735261?lang=en
+      skills: [SymPy]
+      achievements:
+        ru: Научился использовать язык программирования Python для символьных
+          вычислений (аналитического расчета интегралов, производных,
+          символьного решения уравнений и т. д.)
+        en: ???
+
+    - title:
+        ru: Многопоточность в Python. Multithreading
+        en: Python. Multithreading programming
+      organization: Stepik
+      from: 2024-03-01
+      to: 2024-04-30
+      link:
+        ru: https://stepik.org/cert/6947242
+        en: https://stepik.org/cert/6947242?lang=en
+      skills: [threading, Python]
+      achievements:
+        ru: Научился применять потоки и работать с пулом потоков.
+        en: ???
+
+    - title:
+        ru: Функциональное программирование на языке Haskell (часть&nbsp;2)
+        en: Functional programming in Haskell (Part&nbsp;2)
+      organization:
+        ru: CSC
+        en: Computer Science Center
+      from: 2023-12-01
+      to: 2024-01-31
+      link:
+        ru: https://stepik.org/cert/5939233
+        en: https://stepik.org/cert/5939233?lang=en
+      skills: [FP, Haskell]
+      achievements:
+        ru: Познакомился с новыми типами данных и классами типов, упрощающими
+          работу с эффектами, и позволяющими конструировать и использовать
+          составные эффекты.
+        en: ???
+
+  2023:
+
+    - title:
+        ru: Numpy и анализ данных
+        en: Numpy and data analysis
+      organization: Stepik
+      from: 2023-11-01
+      to: 2023-12-31
+      link:
+        ru: https://stepik.org/cert/9017230
+        en: https://stepik.org/cert/9017230?lang=en
+      skills: [NumPy]
+      achievements:
+        ru: Познакомился с библиотекой NumPy, методами, приемами работы и
+          функциями, предназначенными для манипуляции и обработки многомерных
+          массивов в языке программирования Python.
+        en: ???
+
+    - title:
+        ru: Функциональное программирование на языке Haskell
+        en: Functional programming in Haskell
+      organization:
+        ru: CSC
+        en: Computer Science Center
+      from: 2023-07-01
+      to: 2023-08-31
+      link:
+        ru: https://stepik.org/cert/7118214
+        en: https://stepik.org/cert/7118214?lang=en
+      skills: [FP, Haskell]
+      achievements:
+        ru: Познакомился с языком Haskell&nbsp;— наиболее известным чистым
+          функциональным языком программирования. Изучил понятийный аппарат и
+          методы программирования, характерные для функциональных языков, и
+          научился применять их, используя богатый инструментарий,
+          предоставляемый языком Haskell.
+        en: ???
+
+    - title:
+        ru: Интерактивный тренажер по SQL
+        en: Interactive SQL Simulator
+      organization:
+        ru: ДВФУ
+        en: Far Eastern Federal University
+      from: 2022-11-01
+      to: 2023-05-31
+      link:
+        ru: https://stepik.org/cert/9781208
+        en: https://stepik.org/cert/9781208?lang=en
+      skills: [SQL]
+      achievements:
+        ru: Научился создавать реляционные базы данных, изучил различные типы
+          SQL-запросов, научился формулировать, создавать и отлаживать запросы
+          SQL.
+        en: ???
+...

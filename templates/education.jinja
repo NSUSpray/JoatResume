@@ -1,0 +1,20 @@
+<section id="education">
+	<h3>{{ titles.education }}</h3>
+	<dl class="periods">
+{% for edctn in education %}
+		<div>
+			<dt>{{ edctn.to }}</dt>
+			<dd>
+				<h4 class="ed-institution">{{ edctn.institution }}</h4>
+				<p class="ed-degree">
+	{% if language == 'en' %}
+					{{ edctn.degree }}, {{ edctn.faculty }}
+	{% else %}
+					{{ edctn.faculty }}, {{ edctn.degree }}
+	{% endif %}
+				</p>
+			</dd>
+		</div>
+{% endfor %}
+	</dl>
+</section>

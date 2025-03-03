@@ -1,0 +1,86 @@
+.pr-region { display: none; }
+
+#employment { break-inside: avoid; }
+
+
+header {
+	margin-bottom: calc(var(--margin) * 1.5);
+	& > * {
+		&:first-child { float: left; }
+		&:last-child {
+			padding-top: 1.2ex;  /* tuning */
+			text-align: right;
+			& > :first-child {
+				margin-top: 0;
+				margin-bottom: -1ex;  /* tuning */
+			}
+		}
+	}
+}
+
+#places,
+#citizenship
+		{ font-size: small; }
+
+h1 { font-variant: small-caps; }
+
+h2 { letter-spacing: 0.1ex; }
+
+#places:has( + #citizenship) {
+	margin-bottom: 0;
+	& + * { margin-top: 0; }
+}
+
+
+#summary,
+#languages,
+dl > div {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 41mm auto;
+	column-gap: 2.5ex;
+	align-items: baseline;
+	margin-bottom: var(--margin);
+	#skills & { margin-bottom: calc(var(--margin) / 2); }
+	& * { margin: 0; }
+	& :has(+ .achievements)  /* dirty trick */
+			{ margin-bottom: revert; }
+}
+
+dt { text-align: right; }
+
+dd { margin-left: 0; }
+
+h3 {
+	border-bottom: dotted 1pt;
+	text-transform: uppercase;
+}
+
+header li:has(+ li):not(.phone)::after
+		{ content: ' · '; }
+
+#skills li, #languages li {
+	margin-right: 1em;
+	font-family: var(--emphasis-font);
+	&:has(+ li)::after { content: none; }
+}
+
+#languages li::first-letter
+		{ text-transform: uppercase; }
+
+ul.achievements { list-style-type: '— '; }
+
+.pr-duration {
+	font-style: italic;
+	&::before,
+	&::after
+			{ content: none; }
+}
+
+
+
+@media screen {
+
+	body { padding: 0.5in; }
+
+}

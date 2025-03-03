@@ -1,0 +1,114 @@
+%YAML 1.1
+---
+skills:  # by category
+
+  Python:
+    specializations: [back-end, desktop, science, python]
+    attributes: { proficiency: 2, preference: 2, demand: 3 }
+    category: language
+  CSS:
+    specializations: [front-end, desktop]
+    attributes: { proficiency: 2, preference: 2, demand: 3 }
+    category: language
+  JavaScript:
+    specializations: [back-end, front-end, desktop]
+    attributes: { proficiency: 2, preference: 2, demand: 2 }
+    category: language
+  HTML:
+    specializations: [front-end]
+    attributes: { proficiency: 2, preference: 1, demand: 3 }
+    category: language
+  SQL:
+    specializations: [back-end, science]
+    attributes: { proficiency: 2, preference: 1, demand: 3 }
+    category: language
+  Haskell:
+    specializations: [back-end, science, haskell]
+    attributes: { proficiency: 1, preference: 3, demand: 1 }
+    category: language
+  XSLT/XPath:
+    specializations: [back-end]
+    attributes: { proficiency: 1, preference: 1, demand: 1 }
+    category: language
+
+  Git:
+    attributes: { proficiency: 2, preference: 1, demand: 3 }
+    category: tool
+  GitHub:
+    attributes: { proficiency: 2, preference: 1, demand: 3 }
+    category: tool
+  Docker:
+    specializations: [back-end]
+    attributes: { proficiency: 1, preference: 1, demand: 3 }
+    category: tool
+
+  Vue.js:
+    specializations: [front-end]
+    attributes: { proficiency: 2, preference: 2, demand: 3 }
+    category: library
+  PyQt:
+    specializations: [desktop, python]
+    attributes: { proficiency: 1, preference: 2, demand: 2 }
+    category: library
+  Flask:
+    specializations: [back-end, python]
+    attributes: { proficiency: 1, preference: 1, demand: 2 }
+    category: library
+
+  NumPy:
+    specializations: [science, python]
+    attributes: { proficiency: 1, preference: 2, demand: 2 }
+    category: library
+  multiprocessing:
+    specializations: [back-end, desktop, python]
+    attributes: { proficiency: 1, preference: 1, demand: 3 }
+    category: library
+  threading:
+    specializations: [back-end, desktop, python]
+    attributes: { proficiency: 1, preference: 1, demand: 3 }
+    category: library
+  SymPy:
+    specializations: [science, python]
+    attributes: { proficiency: 1, preference: 3, demand: 1 }
+    category: library
+  Box2D:
+    specializations: [game]
+    attributes: { proficiency: 1, preference: 2, demand: 1 }
+    category: library
+  Matplotlib:
+    specializations: [science, python]
+    attributes: { proficiency: 1, preference: 1, demand: 1 }
+    category: library
+  pytest:
+    specializations: [back-end, desktop, python]
+    attributes: { proficiency: 1, preference: 1, demand: 1 }
+    category: library
+
+  algorithms:
+    title: { ru: алгоритмы, en: algorithms }
+    specializations: [science, game]
+    attributes: { proficiency: 3, preference: 3, demand: 2 }
+    category: theory
+  calculus:
+    title:
+      ru: мат. анализ
+      en: calculus
+    specializations: [science]
+    attributes: { proficiency: 2, preference: 2, demand: 1 }
+    category: theory
+  OOP:
+    title: { ru: ООП, en: OOP }
+    attributes: { proficiency: 2, preference: 2, demand: 1 }
+    category: theory
+  FP:
+    title: { ru: ФП, en: FP }
+    attributes: { proficiency: 1, preference: 3, demand: 1 }
+    category: theory
+  computational:
+    title:
+      ru: выч. математика
+      en: computational mathematics
+    specializations: [science, game]
+    attributes: { proficiency: 1, preference: 2, demand: 1 }
+    category: theory
+...

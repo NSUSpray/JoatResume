@@ -1,0 +1,41 @@
+%YAML 1.1
+---
+name: { ru: Василий, en: Vasiliy }
+surname: { ru: Пупкин, en: Pupkin }
+reside: { ru: Урюпинск, en: Uryupinsk }
+citizenship: { ru: Россия, en: Russia }
+languages:
+  - name: { ru: русский, en: Russian }
+    proficiency: { ru: родной, en: Native }
+  - name: { ru: английский, en: English }
+    proficiency:
+      ru: B1&nbsp;— средний
+      en: B1&nbsp;— Intermediate
+relocate: yes
+
+position:
+  ru: Back-end разработчик
+  en: Back-end Developer
+travel: yes
+
+contacts:
+  phones:
+    kg: +996 550223322
+    ru: +7 9312233222
+  email: pupkin@example.com
+  social: https://www.linkedin.com/in/vasiliypupkin/
+  im: https://t.me/vp
+
+
+summary:
+  ru: Независимый разработчик с сильной теоретической подготовкой и обширными
+    знаниями Разработал множество сложных личных проектов, совмещая
+    высокопроизводительные вычисления, визуализацию и удобные интерфейсы.
+    Быстро осваиваю и применяю новые технологии для решения нестандартных
+    задач. Открыт для командной работы в инновационных проектах.
+  en: Independent software engineer with a strong theoretical background and
+    broad expertise. Developed many complex personal projects combining
+    high-performance computing, visualization, and user-friendly interfaces.
+    Rapidly learn and apply new technologies to solve non-standard problems.
+    Open to teamwork on challenging projects.
+...

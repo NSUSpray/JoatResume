@@ -1,0 +1,106 @@
+/** Base style */
+
+:root {
+	--main-font: Calibri, 'Helvetica Neue', Arial, sans-serif;
+	--emphasis-font: Corbel, Tahoma, sans-serif;
+	--margin: 2.9ex;
+}
+
+body {
+	margin: 0;
+	font-family: var(--main-font);
+	font-size: 12pt;
+}
+
+* { box-sizing: border-box; }
+
+
+:not(:not(body, :first-child) *):first-child
+		{ margin-top: 0; }
+
+:not(:not(:last-child) *):last-child
+		{ margin-bottom: 0; }
+
+
+section:not(#skills):not(:has(> dl)),
+dl > div,
+#skills
+		{ break-inside: avoid; }
+
+ul:not(.achievements) > li,
+.pr-boundary,
+.pr-duration
+		{ white-space: nowrap; }
+
+
+h1, h2, h3, h4, h5, h6
+		{ font-family: var(--emphasis-font); }
+
+h1 { font-size: xx-large; }
+
+ul {
+	padding-left: 2.3ex;
+	&:not(.achievements) {
+		padding-left: 0;
+		& > li {
+			display: inline-block;
+			&:has(+ li)::after { content: ', '; }
+		}
+	}
+}
+
+a {
+	text-decoration: none;
+	color: steelblue;
+	&:hover { text-decoration: underline; }
+}
+
+dl.periods > div {
+	& > dt { margin-top: var(--margin); }
+	& > dd { margin-bottom: var(--margin); }
+}
+
+
+
+.pr-duration {
+	&::before { content: '('; }
+	&::after { content: ')'; }
+}
+
+.pr-places > :not(:last-child)::after
+		{ content: ', '; }
+
+.ct-organization::before { content: '· '; }
+
+
+
+@media screen {
+
+	html { background-color: whitesmoke; }
+
+	body {
+		width: 210mm;
+		margin: auto;
+		padding: 1in;
+		background-color: white;
+	}
+
+}
+
+
+
+@media print {
+
+	a {
+		color: black;
+		&:not(.texted-link),
+		&.text-is-link
+				{ font-style: italic; }
+	}
+
+	.ct-organization {
+		font-style: italic;
+		&::before { font-style: normal; }
+	}
+
+}

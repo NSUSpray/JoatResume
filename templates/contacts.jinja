@@ -1,0 +1,15 @@
+{% set breaking_types = 'phones', 'email' %}
+
+<ul id="contacts">
+{% for type, contact in contacts|items %}
+	{% if type == 'phones' %}
+		{% for country, number in contact|items %}
+	{{ li_(number|phone(sep=' '), class='phone') }}
+		{% endfor %}
+	{% else %}
+	{{ li_(contact|a_(trim=True), id=type) }}
+	{% endif %}
+	{{ '<br>' if not loop.last
+			and (type in breaking_types or loop.nextitem[1] in breaking_types) }}
+{% endfor %}
+</ul>

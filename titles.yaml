@@ -1,0 +1,64 @@
+%YAML 1.1
+---
+resume: { ru: Резюме, en: Résumé }
+
+reside: { ru: Проживает, en: Reside in }
+citizenship: { ru: Гражданство, en: Citizenship }
+relocate:
+  ru: готов к переезду
+  en: ready to relocate  # variant: willing to relocate
+travel:
+  ru: готов к командировкам
+  en: ready for business trips  # variant: prepared for business trips
+
+updated:
+  ru: Резюме обновлено
+  en: Résumé updated
+
+employment:
+  ru: Опыт работы
+  en: Work experience
+projects: { ru: Проекты, en: Projects }
+currently:
+  ru: по настоящее время
+  en: Present  # variants: Currently, Till now
+
+skills: { ru: Навыки, en: Skills }
+proficiency:
+  3:
+    ru: продвинутый уровень
+    en: advanced level
+  2:
+    ru: средний уровень
+    en: medium level
+  1:
+    ru: базовый уровень
+    en: basic level
+  unspecified:
+    ru: уровень не указан
+    en: level not specified
+category:
+  framework: { ru: фреймворки, en: frameworks }
+  library: { ru: библиотеки, en: libraries }
+  tool: { ru: инструменты, en: tools }
+  language: { ru: языки, en: languages }
+  theory:
+    ru: теоретические знания
+    en: theoretical knowledge
+  other: { ru: разное, en: miscellaneous }
+
+summary:
+  ru: О себе
+  en: Summary
+
+education:
+  ru: Высшее образование
+  en: Higher education
+
+languages:
+  ru: Знание языков
+  en: Languages
+certifications:
+  ru: Дополнительное образование
+  en: Additional education
+...

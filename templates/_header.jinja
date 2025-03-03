@@ -1,0 +1,12 @@
+<header>
+	<h1>{{ name }} {{ surname }}</h1>
+	<h2>{{ position }}</h2>
+	<ul id="places">
+		{{ li_(reside, id='reside') }}
+		{{ li_(titles.relocate, id='relocate') if relocate }}
+		{{ li_(titles.travel, id='travel') if travel }}
+	</ul>
+	<p id="citizenship">{{ titles.citizenship }}: {{ citizenship }}</p>
+{% include 'contacts.jinja' %}
+	<p id="updated">{{ titles.updated }} {{ now('L', language) }}</p>
+</header>

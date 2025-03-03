@@ -1,0 +1,174 @@
+%YAML 1.1
+---
+employment:
+
+  - from: 2011-11-01
+    name:
+      ru: Частная практика
+      en: Private practice
+    site: https://repetitors.info/repetitor/p/PupkinVP3/
+    position:
+      ru: Репетитор (информатика, математика, физика)
+      en: Tutor (computer science, mathematics, physics)
+    achievements:
+      - ru: обучаю алгоритмам, структурам данных, ФП, ООП, линейной алгебре,
+          численным методам, дискретной математике, C, Python, Haskell, C++,
+          JavaScript, Pascal, MATLAB
+        en: teach algorithms, data structures, FP, OOP, linear algebra,
+          numerical methods, discrete mathematics, C, Python, Haskell, C++,
+          JavaScript, Pascal, MATLAB
+      - ru: 'применял различные среды и фреймворки: NumPy, SymPy, Mathcad,
+          OpenCV, Windows Forms и другие'
+        en: 'used various environments and frameworks: NumPy, SymPy, Mathcad,
+          OpenCV, Windows Forms and others'
+      - ru: нахожу контакт и достигаю взаимопонимания в сложных
+          ситуациях
+        en: establish rapport and ensure effective communication in challenging
+          situations
+
+
+projects:
+
+  - from: 2022-05-01
+    name: Keyboard Layout Analyzer
+    region:
+      ru: Якутск—Ташкент
+      en: Yakutsk—Tashkent
+    site: https://github.com/msusif/keyboard-layout-analyzer_vue.js
+    description:
+      ru: Анализатор клавиатурных раскладок с расчётом нагрузки на руки и
+        пальцы.
+      en: Analyzer of keyboard layouts with calculation of the load on the
+        hands and fingers.
+    skills:
+      computational:
+        ru: автоматизировал расчет углов наклона рук методом наименьших
+          квадратов
+        en: implemented automatic hands angle calculation using the least
+          squares method
+      CSS:
+        ru: переработал вёрстку и сделал приложение адаптивным для разных
+          размеров экрана, улучшив удобство использования на всех устройствах
+        en: redesigned the layout and made the application responsive for
+          various screen sizes, improving usability across all devices
+      FP:
+        ru: улучшил ясность и масштабируемость кода за счёт замыканий и
+          собственных функций высшего порядка
+        en: improved code clarity and scalability by leveraging closures and
+          custom higher-order functions
+      HTML:
+        ru: реализовал семантическую разметку благодаря новым элементам и
+          атрибутам HTML5
+        en: implemented a semantic markup thanks to new HTML5 elements and
+          attributes
+      JavaScript:
+        ru: повысил выразительность кода, применив современные конструкции и
+          методы ECMAScript&nbsp;6
+        en: increased the expressiveness of the code by applying modern
+          ECMAScript&nbsp;6 designs and methods
+      Vue.js:
+        ru: спроектировал архитектуру приложения с Vue&nbsp;3 и разработал
+          десяток нетривиальных компонентов
+        en: designed architecture of the application with Vue&nbsp;3 and
+          developed a dozen non-trivial components
+
+  - from: 2023-03-01
+    to: 2023-04-27
+    name: RigidPacker
+    region: { ru: Ташкент, en: Tashkent }
+    site: https://github.com/msusif/RigidPacker
+    description:
+      ru: Визуальный редактор иерархических данных в виде круговой
+        treemap-диаграммы с рилтайм-упаковкой физическим движком.
+      en: Visual editor of hierarchical data in the form of a circular treemap
+        chart with real-time packing using a rigid body physics engine.
+    skills:
+      algorithms:
+        ru: улучшил эффективность структур данных, позволив обрабатывать
+          в 10× больше элементов без снижения FPS
+        en: improved the efficiency of data structures, enabling 10× more
+          elements to be processed without FPS drop
+      Box2D:
+        ru: разработал новый подход к задаче упаковки, используя Box2D для
+          рилтайм-оптимизации размещения объектов
+        en: developed a novel approach to the packaging problem using Box2D
+          for real-time optimization of object placement
+      OOP:
+        ru: разработал модульную архитектуру по принципам ООП
+        en: designed a modular architecture following OOP principles
+      Python:
+        ru: интегрировал доступ к данным, рилтайм-графику и
+          высокопроизводительные вычисления с помощью привязок Python
+        en: integrated data access, real-time graphics, and high-performance
+          calculations via Python bindings
+      PyQt:
+        ru: оптимизировал рендеринг 2D-графики с помощью Qt, добившись
+          стабильной рилтайм-производительности в многопоточной среде
+        en: optimized 2D graphics rendering with Qt, achieving stable real-time
+          performance in a multithreaded environment
+      SQL:
+        ru: спроектировал базу данных с десятком таблиц и отношений
+        en: designed a database with a dozen tables and relations
+
+  - from: 2016-12-01
+    to: 2022-01-01
+    name: Bitwig API documentation
+    region:
+      ru: Москва
+      en: Moscow
+    site: https://msusif.github.io/Bitwig_API_Doc/
+    description:
+      ru: Конвертер документации Bitwig Studio API в более удобный вид с
+        возможностью сравнения различных версий интерфейса.
+      en: Bitwig Studio API documentation converter into a more convenient
+        format with the ability to compare different API versions.
+    skills:
+      CSS:
+        ru: переработал вёрстку документа для улучшения читаемости и навигации
+        en: redesigned the document layout to improve readability and
+          navigation
+      JavaScript:
+        ru: интегрировал и доработал стороннюю библиотеку JavaScript, чтобы
+          обеспечить плавную иерархическую навигацию в документе
+        en: integrated and refined a third-party JavaScript library to enable
+          smooth hierarchical navigation within the document
+      Python:
+        ru: преобразовал неструктурированные XML-данные в иерархический вид,
+          реализовал сравнение версий API с независимым отображением
+          добавлений, изменений и совпадений
+        en: transformed unstructured XML data into a hierarchical form,
+          implemented API version comparison with an independent display of
+          additions, changes, and matches
+      XSLT/XPath:
+        ru: с помощью XSLT и XPath отобразил подготовленные XML-данные в
+          HTML-документ, дополненный навигационным меню
+        en: used XSLT and XPath to map the prepared XML data into an HTML
+          document supplemented with a navigation menu
+
+  - from: 2014-03-01
+    to: 2019-05-31
+    name: GoodKeys
+    region:
+      ru: Москва
+      en: Moscow
+    site: https://forum.ableton.com/viewtopic.php?t=718220
+    description:
+      ru: Дополнение для Bitwig Studio, расширяющее список горячих клавиш.
+      en: Bitwig Studio addition that extends a list of keyboard shortcuts.
+    skills:
+      multiprocessing:
+        ru: преодолел ограничения встроенного в Bitwig интерпретатора Python,
+          выделив логику взаимодействия с ОС в отдельный процесс
+        en: overcame the limitations of Bitwig’s built-in Python interpreter by
+          offloading OS interaction logic to a separate process
+      Python:
+        ru: изучил Python на уровне, необходимом для решения задач проекта, и
+          успешно применил новые знания
+        en: learned Python at the level necessary for solving project’s
+          challenges, and successfully applied my new knowledge
+      threading:
+        ru: вынес обработку инструкций, поступающих из дочернего процесса, в
+          отдельный поток
+        en: moved out the processing of instructions coming from the child
+          process to a separate thread
+...

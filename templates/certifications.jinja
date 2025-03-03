@@ -1,0 +1,22 @@
+<section id="certifications">
+	<h3>{{ titles.certifications }}</h3>
+	<dl class="periods">
+{% for year, ctfcns in certifications|items %}
+	{% if ctfcns %}
+		<div>
+			<dt>{{ year }}</dt>
+			<dd>
+				<ul class="achievements">
+		{% for certificate in ctfcns %}
+					<li>
+						{{ certificate.link|a_(certificate.title) }}
+						<span class="ct-organization">{{ certificate.organization }}</span>
+					</li>
+		{% endfor %}
+				</ul>
+			</dd>
+		</div>
+	{% endif %}
+{% endfor %}
+	</dl>
+</section>

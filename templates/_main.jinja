@@ -1,0 +1,12 @@
+<main>
+	<section id="summary">
+		<h3>{{ titles.summary }}</h3>
+		<p>{{ summary }}</p>
+	</section>
+{% include 'skills.jinja' %}
+{% include 'languages.jinja' %}
+	{{ render_experience('employment', employment) }}
+	{{ render_experience('projects', projects) }}
+{% include 'education.jinja' %}
+{% if certifications %}{% include 'certifications.jinja' %}{% endif %}
+</main>
